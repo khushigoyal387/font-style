@@ -1,0 +1,57 @@
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
+.lowerCase {
+  text-transform: lowercase;
+}
+
+.font-style {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.type textarea {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  resize: none;
+  width: 80%;
+  max-width: 600px;
+  min-height: 150px;
+}
+
+.btns button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btns button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
